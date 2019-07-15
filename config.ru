@@ -2,7 +2,7 @@ require 'bundler/setup'
 require 'sinatra/base'
 
 # The project root directory
-$root = ::File.dirname(__FILE__)
+$rootd = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base
 
